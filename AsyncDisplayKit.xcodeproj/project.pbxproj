@@ -194,6 +194,10 @@
 		25E327571C16819500A2170C /* ASPagerNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E327541C16819500A2170C /* ASPagerNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25E327581C16819500A2170C /* ASPagerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E327551C16819500A2170C /* ASPagerNode.m */; };
 		25E327591C16819500A2170C /* ASPagerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E327551C16819500A2170C /* ASPagerNode.m */; };
+		2694CAEA1CA2E599001D9760 /* ASControlNode+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 2694CAE81CA2E599001D9760 /* ASControlNode+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2694CAEB1CA2E599001D9760 /* ASControlNode+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 2694CAE81CA2E599001D9760 /* ASControlNode+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2694CAEC1CA2E599001D9760 /* ASControlNode+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694CAE91CA2E599001D9760 /* ASControlNode+RACSignalSupport.m */; };
+		2694CAEE1CA2E599001D9760 /* ASControlNode+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694CAE91CA2E599001D9760 /* ASControlNode+RACSignalSupport.m */; };
 		2767E9411BB19BD600EA9B77 /* ASViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC945A81BA9E7A0005E1FB8 /* ASViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2767E9421BB19BD600EA9B77 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC945AA1BA9E7C1005E1FB8 /* ASViewController.m */; };
 		2911485C1A77147A005D0878 /* ASControlNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2911485B1A77147A005D0878 /* ASControlNodeTests.m */; };
@@ -456,6 +460,7 @@
 		B350625D1B0111740018CF92 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051943141A1575670030A7D0 /* Photos.framework */; };
 		B350625E1B0111780018CF92 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051943121A1575630030A7D0 /* AssetsLibrary.framework */; };
 		B350625F1B0111800018CF92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058D09AF195D04C000B7D73C /* Foundation.framework */; };
+		B4ED2CA4FADDA2200E74E842 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D19BCBAE03E1160E8E8C1E6C /* libPods.a */; };
 		C78F7E2A1BF7808300CDEAFC /* ASTableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F880591BEAEC7500D17647 /* ASTableNode.m */; };
 		C78F7E2B1BF7809800CDEAFC /* ASTableNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F880581BEAEC7500D17647 /* ASTableNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC7FD9DE1BB5E962005CCB2B /* ASPhotosFrameworkImageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7FD9DC1BB5E962005CCB2B /* ASPhotosFrameworkImageRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -626,6 +631,7 @@
 		05A6D05919D0EB64002DD95E /* ASDealloc2MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASDealloc2MainObject.m; path = ../Details/ASDealloc2MainObject.m; sourceTree = "<group>"; };
 		05EA6FE61AC0966E00E35788 /* ASSnapshotTestCase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASSnapshotTestCase.mm; sourceTree = "<group>"; };
 		05F20AA31A15733C00DCA68A /* ASImageProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASImageProtocols.h; sourceTree = "<group>"; };
+		0E714BB3B8B9631222F98092 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		18C2ED7C1B9B7DE800F627B3 /* ASCollectionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCollectionNode.h; sourceTree = "<group>"; };
 		18C2ED7D1B9B7DE800F627B3 /* ASCollectionNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASCollectionNode.mm; sourceTree = "<group>"; };
 		1950C4481A3BB5C1005C8279 /* ASEqualityHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASEqualityHelpers.h; sourceTree = "<group>"; };
@@ -678,6 +684,8 @@
 		258FF4261C0D152600A83844 /* ASRangeHandlerVisible.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASRangeHandlerVisible.mm; sourceTree = "<group>"; };
 		25E327541C16819500A2170C /* ASPagerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPagerNode.h; sourceTree = "<group>"; };
 		25E327551C16819500A2170C /* ASPagerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPagerNode.m; sourceTree = "<group>"; };
+		2694CAE81CA2E599001D9760 /* ASControlNode+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASControlNode+RACSignalSupport.h"; sourceTree = "<group>"; };
+		2694CAE91CA2E599001D9760 /* ASControlNode+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASControlNode+RACSignalSupport.m"; sourceTree = "<group>"; };
 		2911485B1A77147A005D0878 /* ASControlNodeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASControlNodeTests.m; sourceTree = "<group>"; };
 		292C59991A956527007E5DD6 /* ASLayoutRangeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLayoutRangeType.h; sourceTree = "<group>"; };
 		292C599A1A956527007E5DD6 /* ASRangeHandlerPreload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRangeHandlerPreload.h; sourceTree = "<group>"; };
@@ -691,6 +699,7 @@
 		299DA1A71A828D2900162D41 /* ASBatchContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBatchContext.h; sourceTree = "<group>"; };
 		299DA1A81A828D2900162D41 /* ASBatchContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASBatchContext.mm; sourceTree = "<group>"; };
 		29CDC2E11AAE70D000833CA4 /* ASBasicImageDownloaderContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBasicImageDownloaderContextTests.m; sourceTree = "<group>"; };
+		2E0A0BA115134090095B1E41 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3C9C128419E616EF00E942A0 /* ASTableViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTableViewTests.m; sourceTree = "<group>"; };
 		430E7C8D1B4C23F100697A4C /* ASIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIndexPath.h; sourceTree = "<group>"; };
 		430E7C8E1B4C23F100697A4C /* ASIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIndexPath.m; sourceTree = "<group>"; };
@@ -782,6 +791,7 @@
 		CC7FD9DC1BB5E962005CCB2B /* ASPhotosFrameworkImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPhotosFrameworkImageRequest.h; sourceTree = "<group>"; };
 		CC7FD9DD1BB5E962005CCB2B /* ASPhotosFrameworkImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPhotosFrameworkImageRequest.m; sourceTree = "<group>"; };
 		CC7FD9E01BB5F750005CCB2B /* ASPhotosFrameworkImageRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPhotosFrameworkImageRequestTests.m; sourceTree = "<group>"; };
+		D19BCBAE03E1160E8E8C1E6C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3779BCFF841AD3EB56537ED /* Pods-AsyncDisplayKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitTests/Pods-AsyncDisplayKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		D785F6601A74327E00291744 /* ASScrollNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASScrollNode.h; sourceTree = "<group>"; };
 		D785F6611A74327E00291744 /* ASScrollNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASScrollNode.m; sourceTree = "<group>"; };
@@ -815,6 +825,7 @@
 				051943151A1575670030A7D0 /* Photos.framework in Frameworks */,
 				051943131A1575630030A7D0 /* AssetsLibrary.framework in Frameworks */,
 				058D09B0195D04C000B7D73C /* Foundation.framework in Frameworks */,
+				B4ED2CA4FADDA2200E74E842 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -904,6 +915,7 @@
 				058D09BD195D04C000B7D73C /* XCTest.framework */,
 				058D09C0195D04C000B7D73C /* UIKit.framework */,
 				EFA731F0396842FF8AB635EE /* libPods-AsyncDisplayKitTests.a */,
+				D19BCBAE03E1160E8E8C1E6C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1089,6 +1101,8 @@
 				205F0E0D1B371875007741D0 /* UICollectionViewLayout+ASConvenience.h */,
 				205F0E0E1B371875007741D0 /* UICollectionViewLayout+ASConvenience.m */,
 				058D09FF195D050800B7D73C /* UIView+ASConvenience.h */,
+				2694CAE81CA2E599001D9760 /* ASControlNode+RACSignalSupport.h */,
+				2694CAE91CA2E599001D9760 /* ASControlNode+RACSignalSupport.m */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -1271,6 +1285,8 @@
 			children = (
 				FB07EABBCF28656C6297BC2D /* Pods-AsyncDisplayKitTests.debug.xcconfig */,
 				D3779BCFF841AD3EB56537ED /* Pods-AsyncDisplayKitTests.release.xcconfig */,
+				0E714BB3B8B9631222F98092 /* Pods.debug.xcconfig */,
+				2E0A0BA115134090095B1E41 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1292,6 +1308,7 @@
 				058D0A6D195D05EC00B7D73C /* _ASAsyncTransactionGroup.h in Headers */,
 				058D0A72195D05F800B7D73C /* _ASCoreAnimationExtras.h in Headers */,
 				058D0A53195D05DC00B7D73C /* _ASDisplayLayer.h in Headers */,
+				2694CAEA1CA2E599001D9760 /* ASControlNode+RACSignalSupport.h in Headers */,
 				058D0A55195D05DC00B7D73C /* _ASDisplayView.h in Headers */,
 				B13CA0F71C519E9400E031AB /* ASCollectionViewLayoutFacilitatorProtocol.h in Headers */,
 				058D0A74195D05F800B7D73C /* _ASPendingState.h in Headers */,
@@ -1439,6 +1456,7 @@
 				254C6B731BF94DF4003EC431 /* ASTextKitCoreTextAdditions.h in Headers */,
 				254C6B7A1BF94DF4003EC431 /* ASTextKitRenderer.h in Headers */,
 				254C6B7C1BF94DF4003EC431 /* ASTextKitRenderer+TextChecking.h in Headers */,
+				2694CAEB1CA2E599001D9760 /* ASControlNode+RACSignalSupport.h in Headers */,
 				34EFC7611B701C9C00AD841F /* ASBackgroundLayoutSpec.h in Headers */,
 				B35062591B010F070018CF92 /* ASBaseDefines.h in Headers */,
 				B35062131B010EFD0018CF92 /* ASBasicImageDownloader.h in Headers */,
@@ -1564,10 +1582,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058D09CF195D04C000B7D73C /* Build configuration list for PBXNativeTarget "AsyncDisplayKit" */;
 			buildPhases = (
+				2BF295B94B118C4BAA882AC9 /* Check Pods Manifest.lock */,
 				058D09A8195D04C000B7D73C /* Sources */,
 				058D09A9195D04C000B7D73C /* Frameworks */,
 				058D09AA195D04C000B7D73C /* CopyFiles */,
 				058D0A46195D05C300B7D73C /* Headers */,
+				BBBC0D9737AEB2F7013D0184 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1686,6 +1706,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2BF295B94B118C4BAA882AC9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		2E61B6A0DB0F436A9DDBE86F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1714,6 +1749,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncDisplayKitTests/Pods-AsyncDisplayKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBBC0D9737AEB2F7013D0184 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1808,6 +1858,7 @@
 				257754A91BEE44CD00737CA5 /* ASTextKitContext.mm in Sources */,
 				ACF6ED501B17847A00DA7C62 /* ASStackPositionedLayout.mm in Sources */,
 				DECC2ECF1C35C1C600388446 /* ASRangeControllerBeta.mm in Sources */,
+				2694CAEC1CA2E599001D9760 /* ASControlNode+RACSignalSupport.m in Sources */,
 				ACF6ED521B17847A00DA7C62 /* ASStackUnpositionedLayout.mm in Sources */,
 				257754A61BEE44CD00737CA5 /* ASTextKitAttributes.mm in Sources */,
 				ACF6ED321B17843500DA7C62 /* ASStaticLayoutSpec.mm in Sources */,
@@ -1868,6 +1919,7 @@
 			files = (
 				92DD2FE71BF4D0850074C9DD /* ASMapNode.mm in Sources */,
 				9B92C8861BC2EB7600EE46B2 /* ASCollectionViewFlowLayoutInspector.m in Sources */,
+				2694CAEE1CA2E599001D9760 /* ASControlNode+RACSignalSupport.m in Sources */,
 				9B92C8851BC2EB6E00EE46B2 /* ASCollectionDataController.mm in Sources */,
 				B350623D1B010EFD0018CF92 /* _ASAsyncTransaction.m in Sources */,
 				B35062401B010EFD0018CF92 /* _ASAsyncTransactionContainer.m in Sources */,
@@ -2104,6 +2156,7 @@
 		};
 		058D09D0195D04C000B7D73C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E714BB3B8B9631222F98092 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_CODE_COVERAGE = YES;
@@ -2115,8 +2168,14 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_CFLAGS = "-Wall";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_CFLAGS = (
+					"-Wall",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2125,6 +2184,7 @@
 		};
 		058D09D1195D04C000B7D73C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0A0BA115134090095B1E41 /* Pods.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_CODE_COVERAGE = YES;
@@ -2136,8 +2196,14 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_CFLAGS = "-Wall";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_CFLAGS = (
+					"-Wall",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
