@@ -3,7 +3,11 @@
 //  AsyncDisplayKit
 //
 //  Created by Levi McCallum on 2/1/16.
-//  Copyright © 2016 Facebook. All rights reserved.
+//
+//  Copyright (c) 2014-present, Facebook, Inc.  All rights reserved.
+//  This source code is licensed under the BSD-style license found in the
+//  LICENSE file in the root directory of this source tree. An additional grant
+//  of patent rights can be found in the PATENTS file in the same directory.
 //
 
 #import <XCTest/XCTest.h>
@@ -124,6 +128,90 @@
   XCTAssertEqual(node.subnodes[0], node1);
   XCTAssertEqual(node.subnodes[1], node3);
   XCTAssertEqual(node.subnodes[2], node2);
+}
+
+- (void)testMeasurementInBackgroundThreadWithLoadedNode
+{
+  ASDisplayNode *node1 = [[ASDisplayNode alloc] init];
+  ASDisplayNode *node2 = [[ASDisplayNode alloc] init];
+  
+  ASSpecTestDisplayNode *node = [[ASSpecTestDisplayNode alloc] init];
+  node.layoutSpecBlock = ^(ASDisplayNode *weakNode, ASSizeRange constrainedSize) {
+    ASSpecTestDisplayNode *strongNode = (ASSpecTestDisplayNode *)weakNode;
+    if ([strongNode.layoutState isEqualToNumber:@1]) {
+      return [ASStaticLayoutSpec staticLayoutSpecWithChildren:@[node1]];
+    } else {
+      return [ASStaticLayoutSpec staticLayoutSpecWithChildren:@[node2]];
+    }
+  };
+  
+  // Intentionally trigger view creation
+  [node2 view];
+  
+  XCTestExpectation *expectation = [self expectationWithDescription:@"Fix IHM layout also if one node is already loaded"];
+  
+  dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    
+    [node measureWithSizeRange:ASSizeRangeMake(CGSizeZero, CGSizeZero)];
+    XCTAssertEqual(node.subnodes[0], node1);
+    
+    node.layoutState = @2;
+    [node invalidateCalculatedLayout];
+    [node measureWithSizeRange:ASSizeRangeMake(CGSizeZero, CGSizeZero)];
+    
+    // Dispatch back to the main thread to let the insertion / deletion of subnodes happening
+    dispatch_async(dispatch_get_main_queue(), ^{
+      XCTAssertEqual(node.subnodes[0], node2);
+      [expectation fulfill];
+    });
+  });
+  
+  [self waitForExpectationsWithTimeout:5.0 handler:^(NSError *error) {
+    if (error) {
+      NSLog(@"Timeout Error: %@", error);
+    }
+  }];
+}
+
+- (void)testTransitionLayoutWithAnimationWithLoadedNodes
+{
+  ASDisplayNode *node1 = [[ASDisplayNode alloc] init];
+  ASDisplayNode *node2 = [[ASDisplayNode alloc] init];
+  
+  ASSpecTestDisplayNode *node = [[ASSpecTestDisplayNode alloc] init];
+  
+  node.layoutSpecBlock = ^(ASDisplayNode *weakNode, ASSizeRange constrainedSize) {
+    ASSpecTestDisplayNode *strongNode = (ASSpecTestDisplayNode *)weakNode;
+    if ([strongNode.layoutState isEqualToNumber:@1]) {
+      return [ASStaticLayoutSpec staticLayoutSpecWithChildren:@[node1]];
+    } else {
+      return [ASStaticLayoutSpec staticLayoutSpecWithChildren:@[node2]];
+    }
+  };
+ 
+  // Intentionally trigger view creation
+  [node2 view];
+  
+  XCTestExpectation *expectation = [self expectationWithDescription:@"Fix IHM layout transition also if one node is already loaded"];
+  
+  [node measureWithSizeRange:ASSizeRangeMake(CGSizeZero, CGSizeZero)];
+  XCTAssertEqual(node.subnodes[0], node1);
+  
+  node.layoutState = @2;
+  [node invalidateCalculatedLayout];
+  [node transitionLayoutWithAnimation:YES shouldMeasureAsync:YES measurementCompletion:^{
+    // Push this to the next runloop to let async insertion / removing of nodes finished before checking
+    dispatch_async(dispatch_get_main_queue(), ^{
+      XCTAssertEqual(node.subnodes[0], node2);
+      [expectation fulfill];
+    });
+  }];
+  
+  [self waitForExpectationsWithTimeout:5.0 handler:^(NSError *error) {
+    if (error) {
+      NSLog(@"Timeout Error: %@", error);
+    }
+  }];
 }
 
 @end

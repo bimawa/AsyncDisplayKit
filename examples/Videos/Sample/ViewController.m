@@ -1,13 +1,19 @@
-/* This file provided by Facebook is for non-commercial testing and evaluation
- * purposes only.  Facebook reserves all rights not expressly granted.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * FACEBOOK BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
- * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- */
+//
+//  ViewController.m
+//  Sample
+//
+//  Copyright (c) 2014-present, Facebook, Inc.  All rights reserved.
+//  This source code is licensed under the BSD-style license found in the
+//  LICENSE file in the root directory of this source tree. An additional grant
+//  of patent rights can be found in the PATENTS file in the same directory.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+//  FACEBOOK BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+//  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+//  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+//
 
 #import "ViewController.h"
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
@@ -20,16 +26,6 @@
 @implementation ViewController
 
 #pragma mark - UIViewController
-
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-  self = [super initWithNibName:nil bundle:nil];
-  if (self) {
-
-    
-  }
-  return self;
-}
 
 - (void)viewDidLoad
 {
@@ -50,6 +46,9 @@
   ASVideoNode *simonVideoNode = self.simonVideoNode;
   [_rootNode addSubnode:simonVideoNode];
   
+  ASVideoNode *hlsVideoNode = self.hlsVideoNode;
+  [_rootNode addSubnode:hlsVideoNode];
+  
   _rootNode.layoutSpecBlock = ^ASLayoutSpec *(ASDisplayNode * _Nonnull node, ASSizeRange constrainedSize) {
     guitarVideoNode.layoutPosition = CGPointMake(0, 0);
     guitarVideoNode.preferredFrameSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height/3);
@@ -59,8 +58,13 @@
     
     simonVideoNode.layoutPosition = CGPointMake(0, [UIScreen mainScreen].bounds.size.height - ([UIScreen mainScreen].bounds.size.height/3));
     simonVideoNode.preferredFrameSize = CGSizeMake([UIScreen mainScreen].bounds.size.width/2, [UIScreen mainScreen].bounds.size.height/3);
-    return [ASStaticLayoutSpec staticLayoutSpecWithChildren:@[guitarVideoNode, nicCageVideoNode, simonVideoNode]];
+    
+    hlsVideoNode.layoutPosition = CGPointMake(0, [UIScreen mainScreen].bounds.size.height/3);
+    hlsVideoNode.preferredFrameSize = CGSizeMake([UIScreen mainScreen].bounds.size.width/2, [UIScreen mainScreen].bounds.size.height/3);
+    
+    return [ASStaticLayoutSpec staticLayoutSpecWithChildren:@[guitarVideoNode, nicCageVideoNode, simonVideoNode, hlsVideoNode]];
   };
+  
   [self.view addSubnode:_rootNode];
 }
 
@@ -109,6 +113,24 @@
   simonVideoNode.muted = YES;
   
   return simonVideoNode;
+}
+
+- (ASVideoNode *)hlsVideoNode;
+{
+  ASVideoNode *hlsVideoNode = [[ASVideoNode alloc] init];
+  
+  hlsVideoNode.delegate = self;
+  hlsVideoNode.asset = [AVAsset assetWithURL:[NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/gear1/prog_index.m3u8"]];
+  hlsVideoNode.gravity = AVLayerVideoGravityResize;
+  hlsVideoNode.backgroundColor = [UIColor lightGrayColor];
+  hlsVideoNode.shouldAutorepeat = YES;
+  hlsVideoNode.shouldAutoplay = YES;
+  hlsVideoNode.muted = YES;
+ 
+  // Placeholder image
+  hlsVideoNode.URL = [NSURL URLWithString:@"https://upload.wikimedia.org/wikipedia/en/5/52/Testcard_F.jpg"];
+  
+  return hlsVideoNode;
 }
 
 - (ASButtonNode *)playButton;

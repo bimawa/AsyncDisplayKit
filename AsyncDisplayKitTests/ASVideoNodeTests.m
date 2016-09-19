@@ -1,10 +1,12 @@
-/* Copyright (c) 2014-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
+//
+//  ASVideoNodeTests.m
+//  AsyncDisplayKit
+//
+//  Copyright (c) 2014-present, Facebook, Inc.  All rights reserved.
+//  This source code is licensed under the BSD-style license found in the
+//  LICENSE file in the root directory of this source tree. An additional grant
+//  of patent rights can be found in the PATENTS file in the same directory.
+//
 
 #import <OCMock/OCMock.h>
 
@@ -13,7 +15,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 
-@interface ASVideoNodeTests : XCTestCase
+@interface ASVideoNodeTests : XCTestCase <ASVideoNodeDelegate>
 {
   ASVideoNode *_videoNode;
   AVURLAsset *_firstAsset;
@@ -23,15 +25,23 @@
 }
 @end
 
+@interface ASNetworkImageNode () {
+  @public __weak id<ASNetworkImageNodeDelegate> _delegate;
+}
+@end
+
+
 @interface ASVideoNode () {
   ASDisplayNode *_playerNode;
   AVPlayer *_player;
 }
-@property (atomic, readwrite) ASInterfaceState interfaceState;
-@property (atomic, readonly) ASDisplayNode *spinner;
-@property (atomic, readwrite) ASDisplayNode *playerNode;
-@property (atomic, readwrite) AVPlayer *player;
-@property (atomic, readwrite) BOOL shouldBePlaying;
+
+
+@property (nonatomic, readwrite) ASInterfaceState interfaceState;
+@property (nonatomic, readonly) ASDisplayNode *spinner;
+@property (nonatomic, readwrite) ASDisplayNode *playerNode;
+@property (nonatomic, readwrite) AVPlayer *player;
+@property (nonatomic, readwrite) BOOL shouldBePlaying;
 
 - (void)setVideoPlaceholderImage:(UIImage *)image;
 - (void)prepareToPlayAsset:(AVAsset *)asset withKeys:(NSArray *)requestedKeys;
@@ -223,11 +233,10 @@
   }];
   _videoNode.playerNode.layer.frame = CGRectZero;
   
-  [_videoNode visibilityDidChange:YES];
+  [_videoNode visibleStateDidChange:YES];
 
   XCTAssertTrue(_videoNode.shouldBePlaying);
 }
-
 
 - (void)testVideoShouldPauseWhenItLeavesVisibleButShouldKnowPlayingShouldRestartLater
 {
@@ -402,6 +411,20 @@
   XCTAssertNil(_videoNode.player);
   XCTAssertNil(_videoNode.currentItem);
   XCTAssertNil(_videoNode.image);
+}
+
+- (void)testDelegateProperlySetForClassHierarchy
+{
+  _videoNode.delegate = self;
+  
+  XCTAssertTrue([_videoNode.delegate conformsToProtocol:@protocol(ASVideoNodeDelegate)]);
+  XCTAssertTrue([_videoNode.delegate conformsToProtocol:@protocol(ASNetworkImageNodeDelegate)]);
+  XCTAssertTrue([((ASNetworkImageNode*)_videoNode).delegate conformsToProtocol:@protocol(ASNetworkImageNodeDelegate)]);
+  XCTAssertTrue([((ASNetworkImageNode*)_videoNode)->_delegate conformsToProtocol:@protocol(ASNetworkImageNodeDelegate)]);
+  
+  XCTAssertEqual(_videoNode.delegate, self);
+  XCTAssertEqual(((ASNetworkImageNode*)_videoNode).delegate, self);
+  XCTAssertEqual(((ASNetworkImageNode*)_videoNode)->_delegate, self);
 }
 
 @end

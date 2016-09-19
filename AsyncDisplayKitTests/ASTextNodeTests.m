@@ -1,10 +1,12 @@
-/* Copyright (c) 2014-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
+//
+//  ASTextNodeTests.m
+//  AsyncDisplayKit
+//
+//  Copyright (c) 2014-present, Facebook, Inc.  All rights reserved.
+//  This source code is licensed under the BSD-style license found in the
+//  LICENSE file in the root directory of this source tree. An additional grant
+//  of patent rights can be found in the PATENTS file in the same directory.
+//
 
 #import <CoreText/CoreText.h>
 
@@ -123,7 +125,7 @@ static BOOL CGSizeEqualToSizeWithIn(CGSize size1, CGSize size2, CGFloat delta)
   for (NSInteger i = 10; i < 500; i += 50) {
     CGSize constrainedSize = CGSizeMake(i, i);
     CGSize calculatedSize = [_textNode measure:constrainedSize];
-    CGSize recalculatedSize = [_textNode measure:calculatedSize];
+    CGSize recalculatedSize = [_textNode measure:constrainedSize];
     
     XCTAssertTrue(CGSizeEqualToSizeWithIn(calculatedSize, recalculatedSize, 4.0), @"Recalculated size %@ should be same as original size %@", NSStringFromCGSize(recalculatedSize), NSStringFromCGSize(calculatedSize));
   }
@@ -134,7 +136,7 @@ static BOOL CGSizeEqualToSizeWithIn(CGSize size1, CGSize size2, CGFloat delta)
   for (CGFloat i = 10; i < 500; i *= 1.3) {
     CGSize constrainedSize = CGSizeMake(i, i);
     CGSize calculatedSize = [_textNode measure:constrainedSize];
-    CGSize recalculatedSize = [_textNode measure:calculatedSize];
+    CGSize recalculatedSize = [_textNode measure:constrainedSize];
 
     XCTAssertTrue(CGSizeEqualToSizeWithIn(calculatedSize, recalculatedSize, 11.0), @"Recalculated size %@ should be same as original size %@", NSStringFromCGSize(recalculatedSize), NSStringFromCGSize(calculatedSize));
   }
