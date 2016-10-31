@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="626e7716-6941-4b16-bf43-a89f52bfc5a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASBackgroundLayoutSpecSnapshotTests/testBackground@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASDisplayNodeSnapshotTests/testBasicHierarchySnapshotTesting@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASImageNodeSnapshotTests/testForcedScaling_first@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASImageNodeSnapshotTests/testForcedScaling_second@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASImageNodeSnapshotTests/testRoundedCornerBlock@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASImageNodeSnapshotTests/testTintColorBlock@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testMinimumSizeRangeIsGivenToChildWhenNotPositioning@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_CenterX@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_CenterXCenterY@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_CenterXEndY@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_CenterY@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_EndX@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_EndXCenterY@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_EndXEndY@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_EndY@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithSizingOptions@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumHeight@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumWidth@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumWidthSizingMinimumHeight@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSize@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeAmongMixedChildrenChildren@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeAmongMixedChildrenWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeAndFlexFactor@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeAndFlexFactorAmongMixedChildren@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeAndFlexFactorAmongMixedChildrenArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeAndFlexFactorDoesNotShrinkToZero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeAndFlexFactorDoesNotShrinkToZeroWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeAndFlexFactorWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNegativeViolationIsDistributedBasedOnSizeWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testNestedStackLayoutStretchDoesNotViolateWidth@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPositiveViolationIsDistributedEqually@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPositiveViolationIsDistributedEquallyAmongMixedChildren@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPositiveViolationIsDistributedEquallyAmongMixedChildrenWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPositiveViolationIsDistributedEquallyWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPositiveViolationIsDistributedProportionally@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPositiveViolationIsDistributedProportionallyAmongMixedChildren@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPositiveViolationIsDistributedProportionallyAmongMixedChildrenWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPositiveViolationIsDistributedProportionallyWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testRemainingViolationIsAppliedProperlyToFirstFlexibleChild@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testRemainingViolationIsAppliedProperlyToFirstFlexibleChildWithArbitraryFloats@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASTextNodeSnapshotTests/testShadowing@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASTextNodeSnapshotTests/testTextContainerInset@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASTextNodeSnapshotTests/testTextContainerInsetHighlight@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASTextNodeSnapshotTests/testTextContainerInsetIsIncludedWithSmallerConstrainedSize@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASTextNodeSnapshotTests/testThatFastPathTruncationWorks@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASTextNodeSnapshotTests/testThatSlowPathTruncationWorks@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASWrapperSpecSnapshotTests/testWrapperSpecWithMultipleElementsShouldSizeToLargestElement@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASWrapperSpecSnapshotTests/testWrapperSpecWithOneElementShouldSizeToElement@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_iOS_10/ASTextNodeSnapshotTests/testShadowing@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_iOS_10/ASTextNodeSnapshotTests/testTextContainerInset@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_iOS_10/ASTextNodeSnapshotTests/testTextContainerInsetHighlight@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_iOS_10/ASTextNodeSnapshotTests/testTextContainerInsetIsIncludedWithSmallerConstrainedSize@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_iOS_10/ASTextNodeSnapshotTests/testThatFastPathTruncationWorks@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_iOS_10/ASTextNodeSnapshotTests/testThatSlowPathTruncationWorks@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Default-667h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Default-736h@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Hill.imageset/hill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Hill.imageset/hill@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Hill.imageset/hill@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Water.imageset/water.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Water.imageset/water@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Water.imageset/water@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode+Deprecated.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASSectionContext.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASTraceEvent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASTraceEvent.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASWeakSet.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/CoreGraphics+ASConvenience.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/CoreGraphics+ASConvenience.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/NSArray+Diffing.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASAbsoluteLayoutElement.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASAbsoluteLayoutSpec.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASAbsoluteLayoutSpec.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutElement.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutElement.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutElementExtensibility.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutElementPrivate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutElementStylePrivate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec+Subclasses.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec+Subclasses.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStackLayoutElement.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASCollectionView+Undeprecated.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASControlTargetAction.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASControlTargetAction.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDispatch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNodeLayout.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNodeLayout.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASLayoutSpecPrivate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASObjectDescriptionHelpers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASObjectDescriptionHelpers.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASSection.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASSection.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASTableView+Undeprecated.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASWeakMap.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASWeakMap.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASAbsoluteLayoutSpecSnapshotTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASBackgroundLayoutSpecSnapshotTests.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASCALayerTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDispatchTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayNodeLayoutTests.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayNodeSnapshotTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASLayoutElementStyleTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASNetworkImageNodeTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASPerformanceTestContext.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASPerformanceTestContext.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASSnapshotTestCase.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTextNodePerformanceTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTextNodeSnapshotTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASUICollectionViewTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASViewControllerTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASWeakMapTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASWrapperSpecSnapshotTests.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASXCTExtensions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/TestResources/AttributedStringsFixture0.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample.xcodeproj/xcshareddata/xcschemes/Sample.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample/ViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample/ViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASDKLayoutTransition/Sample/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample.xcodeproj/xcshareddata/xcschemes/Sample.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Pages/HorizontalStackWithSpacer.xcplaygroundpage/Contents.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Pages/Index.xcplaygroundpage/Contents.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Pages/PhotoWithInsetTextOverlay.xcplaygroundpage/Contents.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Pages/PhotoWithOutsetIconOverlay.xcplaygroundpage/Contents.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Pages/StackLayout.xcplaygroundpage/Contents.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Sources/ASPlayground.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Sources/HorizontalStackWithSpacer.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Sources/PhotoWithInsetTextOverlay.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Sources/PhotoWithOutsetIconOverlay.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Sources/StackLayout.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/Sources/Utilities.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASLayoutSpecPlayground-Swift/Sample/Sample.playground/contents.xcplayground" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Hill.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/Assets.xcassets/Water.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/CustomMapAnnotation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/CustomMapAnnotation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plans/section-infos-api/Overview.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/CGRect+ASConvenience.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/CGRect+ASConvenience.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutValidation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutValidation.mm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutable.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutable.mm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutableExtensibility.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutablePrivate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRelativeSize.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRelativeSize.mm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStackLayoutable.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStaticLayoutSpec.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStaticLayoutSpec.mm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStaticLayoutable.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASSentinel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASSentinel.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASWeakSet.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/NSArray+Diffing.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASSnapshotTestCase.mm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASStaticLayoutSpecSnapshotTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testMinimumSizeRangeIsGivenToChildWhenNotCentering@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testWithOptions@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testWithOptions_CenteringX@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testWithOptions_CenteringXCenteringY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testWithOptions_CenteringY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testWithSizingOptions@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumX@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumXSizingMinimumY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASCenterLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASImageNodeSnapshotTests/testRenderLogoSquare@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_10-10-10-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_10-10-10-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_10-10-inf-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_10-10-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_10-inf-10-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_10-inf-10-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_10-inf-inf-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_10-inf-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_inf-10-10-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_inf-10-10-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_inf-10-inf-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_inf-10-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_inf-inf-10-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_inf-inf-10-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_inf-inf-inf-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithFixedSize_inf-inf-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_0-0-0-0@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_0-0-0-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_0-0-inf-0@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_0-0-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_0-inf-0-0@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_0-inf-0-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_0-inf-inf-0@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_0-inf-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_inf-0-0-0@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_inf-0-0-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_inf-0-inf-0@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_inf-0-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_inf-inf-0-0@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_inf-inf-0-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_inf-inf-inf-0@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithInfinityAndZeroInsetValue_inf-inf-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_10-10-10-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_10-10-10-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_10-10-inf-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_10-10-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_10-inf-10-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_10-inf-10-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_10-inf-inf-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_10-inf-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_inf-10-10-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_inf-10-10-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_inf-10-inf-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_inf-10-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_inf-inf-10-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_inf-inf-10-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_inf-inf-inf-10@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASInsetLayoutSpecSnapshotTests/testInsetsWithVariableSize_inf-inf-inf-inf@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASOverlayLayoutSpecSnapshotTests/testOverlay@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRatioLayoutSpecSnapshotTests/testRatioLayout_DoubleRatio@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRatioLayoutSpecSnapshotTests/testRatioLayout_HalfRatio@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRatioLayoutSpecSnapshotTests/testRatioLayout_SevenTimesRatio@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRatioLayoutSpecSnapshotTests/testRatioLayout_TenTimesRatioWithItemTooBig@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testMinimumSizeRangeIsGivenToChildWhenNotPositioning@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_CenterX@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_CenterXCenterY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_CenterXEndY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_CenterY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_EndX@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_EndXCenterY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_EndXEndY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithOptions_EndY@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithSizingOptions@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumHeight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumWidth@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASRelativeLayoutSpecSnapshotTests/testWithSizingOptions_SizingMinimumWidthSizingMinimumHeight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignCenterWithFlexedMainDimension@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignCenterWithIndefiniteCrossDimension@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedCenter@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedEnd@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedStart@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedStretchNoChildExceedsMin@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedStretchOneChildExceedsMin@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testChildSpacing_spacingAfter@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testChildSpacing_spacingBalancedOut@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testChildSpacing_spacingBefore@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testChildThatChangesCrossSizeWhenMainSizeIsFlexed@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testCrossAxisSizeBehaviors_fixedHeight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testCrossAxisSizeBehaviors_variableHeight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testCrossAxisStretchingOccursAfterStackAxisFlexing@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testEmptyStack@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testFixedFlexBasisAppliedWhenFlexingItems_overflow@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testFixedFlexBasisAppliedWhenFlexingItems_underflow@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testFixedFlexBasisOverridesIntrinsicSizeForNonFlexingChildren@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testFlexWithUnequalIntrinsicSizes_overflow@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testFlexWithUnequalIntrinsicSizes_underflow@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testHorizontalAndVerticalAlignments_horizontalBottomRight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testHorizontalAndVerticalAlignments_horizontalCenter@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testHorizontalAndVerticalAlignments_horizontalTopLeft@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testHorizontalAndVerticalAlignments_verticalBottomRight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testHorizontalAndVerticalAlignments_verticalCenter@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testHorizontalAndVerticalAlignments_verticalTopLeft@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testJustifiedCenterWithChildSpacing_variableHeight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testJustifiedSpaceAroundWithOneChild@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testJustifiedSpaceAroundWithRemainingSpace@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testJustifiedSpaceBetweenWithOneChild@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testJustifiedSpaceBetweenWithRemainingSpace@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testOverflowBehaviorsWhenAllFlexShrinkChildrenHaveBeenClampedToZeroButViolationStillExists@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testOverflowBehaviors_flex@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testOverflowBehaviors_justifyCenter@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testOverflowBehaviors_justifyEnd@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testOverflowBehaviors_justifyStart@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPercentageFlexBasisResolvesAgainstParentSize@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testStackSpacingWithChildrenHavingNilObjects_variableHeight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testStackSpacing_variableHeight@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testUnderflowBehaviors_flex@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testUnderflowBehaviors_justifyCenter@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testUnderflowBehaviors_justifyEnd@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testUnderflowBehaviors_justifySpaceAround@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testUnderflowBehaviors_justifySpaceBetween@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testUnderflowBehaviors_justifyStart@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testViolationIsDistributedEquallyAmongFlexibleChildren@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testViolationIsDistributedEquallyAmongFlexibleChildren@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStaticLayoutSpecSnapshotTests/testChildrenMeasuredWithAutoMaxSize@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStaticLayoutSpecSnapshotTests/testSizingBehaviour_overflowChildren@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStaticLayoutSpecSnapshotTests/testSizingBehaviour_underflowChildren@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStaticLayoutSpecSnapshotTests/testSizingBehaviour_wrappedChildren@3x.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASEqualityHashHelpers.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASEqualityHashHelpers.mm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASWeakSet.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASWeakSet.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/NSArray+Diffing.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/NSArray+Diffing.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testPercentageFlexBasisResolvesAgainstParentSize@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testFractionalFlexBasisResolvesAgainstParentSize@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStaticLayoutSpecSnapshotTests/testChildrenMeasuredWithAutoMaxSize@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASAbsoluteLayoutSpecSnapshotTests/testChildrenMeasuredWithAutoMaxSize@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStaticLayoutSpecSnapshotTests/testSizingBehaviour_overflowChildren@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASAbsoluteLayoutSpecSnapshotTests/testSizingBehaviour_overflowChildren@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStaticLayoutSpecSnapshotTests/testSizingBehaviour_underflowChildren@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASAbsoluteLayoutSpecSnapshotTests/testSizingBehaviour_underflowChildren@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStaticLayoutSpecSnapshotTests/testSizingBehaviour_wrappedChildren@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASAbsoluteLayoutSpecSnapshotTests/testSizingBehaviour_wrappedChildren@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignCenterWithFlexedMainDimension@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignCenterWithFlexedMainDimension@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedStretchNoChildExceedsMin@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedStretchNoChildExceedsMin@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedStretchOneChildExceedsMin@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testAlignedStretchOneChildExceedsMin@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testCrossAxisStretchingOccursAfterStackAxisFlexing@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testCrossAxisStretchingOccursAfterStackAxisFlexing@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testFlexWithUnequalIntrinsicSizes_overflow@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testFlexWithUnequalIntrinsicSizes_overflow@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testOverflowBehaviors_flex@2x.png" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ReferenceImages_64/ASStackLayoutSpecSnapshotTests/testOverflowBehaviors_flex@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit.podspec" afterPath="$PROJECT_DIR$/AsyncDisplayKit.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/AsyncDisplayKit.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit.xcodeproj/xcshareddata/xcschemes/AsyncDisplayKit.xcscheme" afterPath="$PROJECT_DIR$/AsyncDisplayKit.xcodeproj/xcshareddata/xcschemes/AsyncDisplayKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASButtonNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASButtonNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASButtonNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASButtonNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCellNode+Internal.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCellNode+Internal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCellNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCellNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCellNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCellNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionNode+Beta.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionNode+Beta.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionView.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionView.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionView.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionViewProtocols.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASCollectionViewProtocols.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASContextTransitioning.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASContextTransitioning.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASControlNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASControlNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASControlNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASControlNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode+Beta.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode+Beta.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode+Subclasses.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode+Subclasses.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNodeExtras.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNodeExtras.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNodeExtras.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASDisplayNodeExtras.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASEditableTextNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASEditableTextNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASEditableTextNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASEditableTextNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASImageNode+AnimatedImage.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASImageNode+AnimatedImage.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASImageNode+tvOS.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASImageNode+tvOS.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASImageNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASImageNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASImageNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASImageNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASMapNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASMapNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASMapNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASMapNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASMultiplexImageNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASMultiplexImageNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASMultiplexImageNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASMultiplexImageNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASNavigationController.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASNavigationController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASNetworkImageNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASNetworkImageNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASNetworkImageNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASNetworkImageNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASPagerFlowLayout.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASPagerFlowLayout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASPagerNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASPagerNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASPagerNode.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASPagerNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASRunLoopQueue.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASRunLoopQueue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASRunLoopQueue.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASRunLoopQueue.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTabBarController.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTabBarController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTableNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTableNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTableNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTableNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTableView.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTableView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTableView.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTableView.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTableViewInternal.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTableViewInternal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTableViewProtocols.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTableViewProtocols.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTextNode+Beta.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTextNode+Beta.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTextNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTextNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASTextNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASTextNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASVideoNode.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASVideoNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASVideoNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASVideoNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASVideoPlayerNode.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASVideoPlayerNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASViewController.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASViewController.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASViewController.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASVisibilityProtocols.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASVisibilityProtocols.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/ASVisibilityProtocols.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/ASVisibilityProtocols.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/AsyncDisplayKit+Debug.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/AsyncDisplayKit+Debug.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/AsyncDisplayKit+Debug.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/AsyncDisplayKit+Debug.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/AsyncDisplayKit-Prefix.pch" afterPath="$PROJECT_DIR$/AsyncDisplayKit/AsyncDisplayKit-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/AsyncDisplayKit.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/AsyncDisplayKit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASAbstractLayoutController.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASAbstractLayoutController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASAbstractLayoutController.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASAbstractLayoutController.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASBasicImageDownloader.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASBasicImageDownloader.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASBasicImageDownloader.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASBasicImageDownloader.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASBatchContext.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASBatchContext.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASChangeSetDataController.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASChangeSetDataController.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionDataController.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionDataController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionDataController.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionDataController.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionInternal.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionInternal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionViewFlowLayoutInspector.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionViewFlowLayoutInspector.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionViewFlowLayoutInspector.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionViewFlowLayoutInspector.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionViewLayoutController.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASCollectionViewLayoutController.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASDataController.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASDataController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASDataController.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASDataController.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASDelegateProxy.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASDelegateProxy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASEnvironment.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASEnvironment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASEnvironment.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASEnvironment.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASFlowLayoutController.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASFlowLayoutController.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASHighlightOverlayLayer.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASHighlightOverlayLayer.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASImageProtocols.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASImageProtocols.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASIndexPath.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASIndexPath.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASIndexedNodeContext.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASIndexedNodeContext.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASIndexedNodeContext.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASIndexedNodeContext.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASLayoutRangeType.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASLayoutRangeType.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASMainSerialQueue.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASMainSerialQueue.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASMutableAttributedStringBuilder.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASMutableAttributedStringBuilder.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASPINRemoteImageDownloader.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASPINRemoteImageDownloader.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASPINRemoteImageDownloader.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASPINRemoteImageDownloader.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASPhotosFrameworkImageRequest.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASPhotosFrameworkImageRequest.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASPhotosFrameworkImageRequest.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASPhotosFrameworkImageRequest.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASRangeController.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASRangeController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASRangeController.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASRangeController.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASWeakProxy.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASWeakProxy.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASWeakProxy.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/ASWeakProxy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/NSMutableAttributedString+TextKitAdditions.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/NSMutableAttributedString+TextKitAdditions.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransaction.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransaction.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransaction.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransaction.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer+Private.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer+Private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionGroup.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionGroup.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionGroup.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionGroup.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/UICollectionViewLayout+ASConvenience.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/UICollectionViewLayout+ASConvenience.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/UIView+ASConvenience.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/UIView+ASConvenience.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayLayer.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayLayer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayLayer.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayLayer.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayView.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayView.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayViewAccessiblity.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayViewAccessiblity.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayViewAccessiblity.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Details/_ASDisplayViewAccessiblity.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASAsciiArtBoxCreator.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASAsciiArtBoxCreator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASAsciiArtBoxCreator.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASAsciiArtBoxCreator.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASBackgroundLayoutSpec.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASBackgroundLayoutSpec.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASBackgroundLayoutSpec.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASBackgroundLayoutSpec.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASCenterLayoutSpec.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASCenterLayoutSpec.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASCenterLayoutSpec.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASCenterLayoutSpec.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASDimension.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASDimension.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASDimension.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASDimension.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASInsetLayoutSpec.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASInsetLayoutSpec.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASInsetLayoutSpec.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASInsetLayoutSpec.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayout.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayout.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayout.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASOverlayLayoutSpec.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASOverlayLayoutSpec.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASOverlayLayoutSpec.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASOverlayLayoutSpec.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRatioLayoutSpec.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRatioLayoutSpec.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRatioLayoutSpec.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRatioLayoutSpec.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRelativeLayoutSpec.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRelativeLayoutSpec.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRelativeLayoutSpec.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASRelativeLayoutSpec.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStackLayoutSpec.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStackLayoutSpec.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStackLayoutSpec.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Layout/ASStackLayoutSpec.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASBasicImageDownloaderInternal.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASBasicImageDownloaderInternal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDataController+Subclasses.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDataController+Subclasses.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNode+AsyncDisplay.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNode+AsyncDisplay.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNode+FrameworkPrivate.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNode+FrameworkPrivate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNode+UIViewBridge.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNode+UIViewBridge.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNodeInternal.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASDisplayNodeInternal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASEnvironmentInternal.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASEnvironmentInternal.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASImageNode+CGExtras.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASImageNode+CGExtras.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASImageNode+CGExtras.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASImageNode+CGExtras.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASInternalHelpers.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASInternalHelpers.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASInternalHelpers.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASInternalHelpers.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASLayoutTransition.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASLayoutTransition.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASLayoutTransition.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASLayoutTransition.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASMultidimensionalArrayUtils.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASMultidimensionalArrayUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASMultidimensionalArrayUtils.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASMultidimensionalArrayUtils.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackBaselinePositionedLayout.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackBaselinePositionedLayout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackBaselinePositionedLayout.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackBaselinePositionedLayout.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackPositionedLayout.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackPositionedLayout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackPositionedLayout.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackPositionedLayout.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackUnpositionedLayout.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackUnpositionedLayout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackUnpositionedLayout.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/ASStackUnpositionedLayout.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/_AS-objc-internal.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/_AS-objc-internal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASCoreAnimationExtras.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASCoreAnimationExtras.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASHierarchyChangeSet.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASHierarchyChangeSet.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASHierarchyChangeSet.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASHierarchyChangeSet.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASPendingState.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASPendingState.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASScopeTimer.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/Private/_ASScopeTimer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASEqualityHashHelpers.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASEqualityHashHelpers.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitAttributes.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitAttributes.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitAttributes.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitAttributes.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitComponents.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitComponents.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitComponents.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitComponents.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitContext.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitContext.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitContext.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitContext.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitFontSizeAdjuster.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitFontSizeAdjuster.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer+Positioning.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer+Positioning.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitShadower.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitShadower.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitShadower.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitShadower.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitTailTruncater.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextKitTailTruncater.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextNodeWordKerner.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/TextKit/ASTextNodeWordKerner.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/UIImage+ASConvenience.h" afterPath="$PROJECT_DIR$/AsyncDisplayKit/UIImage+ASConvenience.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/UIImage+ASConvenience.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/UIImage+ASConvenience.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKit/_ASTransitionContext.m" afterPath="$PROJECT_DIR$/AsyncDisplayKit/_ASTransitionContext.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASBasicImageDownloaderTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASBasicImageDownloaderTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASCenterLayoutSpecSnapshotTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASCenterLayoutSpecSnapshotTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASCollectionViewFlowLayoutInspectorTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASCollectionViewFlowLayoutInspectorTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASCollectionViewTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASCollectionViewTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASControlNodeTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASControlNodeTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDimensionTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDimensionTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayLayerTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayLayerTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayNodeAppearanceTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayNodeAppearanceTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayNodeImplicitHierarchyTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayNodeImplicitHierarchyTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayNodeTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASDisplayNodeTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASEditableTextNodeTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASEditableTextNodeTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASImageNodeSnapshotTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASImageNodeSnapshotTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASInsetLayoutSpecSnapshotTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASInsetLayoutSpecSnapshotTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASLayoutSpecSnapshotTestsHelper.h" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASLayoutSpecSnapshotTestsHelper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASLayoutSpecSnapshotTestsHelper.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASLayoutSpecSnapshotTestsHelper.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASMultiplexImageNodeTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASMultiplexImageNodeTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASOverlayLayoutSpecSnapshotTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASOverlayLayoutSpecSnapshotTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASRatioLayoutSpecSnapshotTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASRatioLayoutSpecSnapshotTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASRelativeLayoutSpecSnapshotTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASRelativeLayoutSpecSnapshotTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASSnapshotTestCase.h" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASSnapshotTestCase.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASStackLayoutSpecSnapshotTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASStackLayoutSpecSnapshotTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTableViewTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTableViewTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTableViewThrashTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTableViewThrashTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTextKitTruncationTests.mm" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTextKitTruncationTests.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTextNodeTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASTextNodeTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsyncDisplayKitTests/ASVideoNodeTests.m" afterPath="$PROJECT_DIR$/AsyncDisplayKitTests/ASVideoNodeTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/ASAvailability.h" afterPath="$PROJECT_DIR$/Base/ASAvailability.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/ASBaseDefines.h" afterPath="$PROJECT_DIR$/Base/ASBaseDefines.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/ASLog.h" afterPath="$PROJECT_DIR$/Base/ASLog.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sh" afterPath="$PROJECT_DIR$/build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASCollectionView/Sample/ItemNode.m" afterPath="$PROJECT_DIR$/examples/ASCollectionView/Sample/ItemNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASCollectionView/Sample/PresentingViewController.m" afterPath="$PROJECT_DIR$/examples/ASCollectionView/Sample/PresentingViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASCollectionView/Sample/SupplementaryNode.m" afterPath="$PROJECT_DIR$/examples/ASCollectionView/Sample/SupplementaryNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASCollectionView/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/ASCollectionView/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASDKTube/Sample/Controller/VideoFeedNodeController.m" afterPath="$PROJECT_DIR$/examples/ASDKTube/Sample/Controller/VideoFeedNodeController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASDKTube/Sample/Nodes/VideoContentCell.m" afterPath="$PROJECT_DIR$/examples/ASDKTube/Sample/Nodes/VideoContentCell.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASDKTube/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/ASDKTube/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASDKgram/Sample/CommentsNode.m" afterPath="$PROJECT_DIR$/examples/ASDKgram/Sample/CommentsNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASDKgram/Sample/PhotoCellNode.m" afterPath="$PROJECT_DIR$/examples/ASDKgram/Sample/PhotoCellNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASDKgram/Sample/PhotoFeedNodeController.m" afterPath="$PROJECT_DIR$/examples/ASDKgram/Sample/PhotoFeedNodeController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASDKgram/Sample/Utilities.m" afterPath="$PROJECT_DIR$/examples/ASDKgram/Sample/Utilities.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASMapNode/Sample.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASMapNode/Sample/AppDelegate.m" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASMapNode/Sample/MapHandlerNode.m" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/MapHandlerNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASMapNode/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/ASMapNode/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASViewController/Sample/DetailCellNode.m" afterPath="$PROJECT_DIR$/examples/ASViewController/Sample/DetailCellNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASViewController/Sample/DetailRootNode.m" afterPath="$PROJECT_DIR$/examples/ASViewController/Sample/DetailRootNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ASViewController/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/ASViewController/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/Node Containers/OverviewASCollectionNode.m" afterPath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/Node Containers/OverviewASCollectionNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/Node Containers/OverviewASPagerNode.m" afterPath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/Node Containers/OverviewASPagerNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/Node Containers/OverviewASTableNode.m" afterPath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/Node Containers/OverviewASTableNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/OverviewComponentsViewController.h" afterPath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/OverviewComponentsViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/OverviewComponentsViewController.m" afterPath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/OverviewComponentsViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/OverviewDetailViewController.m" afterPath="$PROJECT_DIR$/examples/AsyncDisplayKitOverview/Sample/OverviewDetailViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/BlurbNode.m" afterPath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/BlurbNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/ItemNode.m" afterPath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/ItemNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/LoadingNode.m" afterPath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/LoadingNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/ViewController.h" afterPath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/ViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/CatDealsCollectionView/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/AppDelegate.m" afterPath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/ImageCellNode.m" afterPath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/ImageCellNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/MosaicCollectionViewLayout.h" afterPath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/MosaicCollectionViewLayout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/MosaicCollectionViewLayout.m" afterPath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/MosaicCollectionViewLayout.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/ViewController.h" afterPath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/ViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/CustomCollectionView/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/HorizontalWithinVerticalScrolling/Sample/HorizontalScrollCellNode.h" afterPath="$PROJECT_DIR$/examples/HorizontalWithinVerticalScrolling/Sample/HorizontalScrollCellNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/HorizontalWithinVerticalScrolling/Sample/HorizontalScrollCellNode.mm" afterPath="$PROJECT_DIR$/examples/HorizontalWithinVerticalScrolling/Sample/HorizontalScrollCellNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/HorizontalWithinVerticalScrolling/Sample/ViewController.h" afterPath="$PROJECT_DIR$/examples/HorizontalWithinVerticalScrolling/Sample/ViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/HorizontalWithinVerticalScrolling/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/HorizontalWithinVerticalScrolling/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Kittens/Sample/BlurbNode.m" afterPath="$PROJECT_DIR$/examples/Kittens/Sample/BlurbNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Kittens/Sample/KittenNode.mm" afterPath="$PROJECT_DIR$/examples/Kittens/Sample/KittenNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Kittens/Sample/ViewController.h" afterPath="$PROJECT_DIR$/examples/Kittens/Sample/ViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Kittens/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/Kittens/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/PagerNode/Sample/PageNode.m" afterPath="$PROJECT_DIR$/examples/PagerNode/Sample/PageNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/CommentsNode.m" afterPath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/CommentsNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/LikesNode.m" afterPath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/LikesNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/PostNode.m" afterPath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/PostNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/ViewController.h" afterPath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/ViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/SocialAppLayout/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Swift/Sample.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/examples/Swift/Sample.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Swift/Sample/AppDelegate.swift" afterPath="$PROJECT_DIR$/examples/Swift/Sample/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Swift/Sample/TailLoadingCellNode.swift" afterPath="$PROJECT_DIR$/examples/Swift/Sample/TailLoadingCellNode.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Swift/Sample/ViewController.swift" afterPath="$PROJECT_DIR$/examples/Swift/Sample/ViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/VerticalWithinHorizontalScrolling/Sample/GradientTableNode.h" afterPath="$PROJECT_DIR$/examples/VerticalWithinHorizontalScrolling/Sample/GradientTableNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/VerticalWithinHorizontalScrolling/Sample/GradientTableNode.mm" afterPath="$PROJECT_DIR$/examples/VerticalWithinHorizontalScrolling/Sample/GradientTableNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/VerticalWithinHorizontalScrolling/Sample/RandomCoreGraphicsNode.m" afterPath="$PROJECT_DIR$/examples/VerticalWithinHorizontalScrolling/Sample/RandomCoreGraphicsNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/VerticalWithinHorizontalScrolling/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/VerticalWithinHorizontalScrolling/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Videos/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples/Videos/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/ASTableViewStressTest/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples_extra/ASTableViewStressTest/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/ASTraitCollection/Sample/KittenNode.m" afterPath="$PROJECT_DIR$/examples_extra/ASTraitCollection/Sample/KittenNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/ASTraitCollection/Sample/OverrideViewController.m" afterPath="$PROJECT_DIR$/examples_extra/ASTraitCollection/Sample/OverrideViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/BackgroundPropertySetting/Sample.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/examples_extra/BackgroundPropertySetting/Sample.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/BackgroundPropertySetting/Sample/DemoCellNode.swift" afterPath="$PROJECT_DIR$/examples_extra/BackgroundPropertySetting/Sample/DemoCellNode.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/CarthageBuildTest/CarthageExample/ViewController.m" afterPath="$PROJECT_DIR$/examples_extra/CarthageBuildTest/CarthageExample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/CollectionViewWithViewControllerCells/Sample/SupplementaryNode.m" afterPath="$PROJECT_DIR$/examples_extra/CollectionViewWithViewControllerCells/Sample/SupplementaryNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/EditableText/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples_extra/EditableText/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/Multiplex/Sample/ScreenNode.m" afterPath="$PROJECT_DIR$/examples_extra/Multiplex/Sample/ScreenNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/Placeholders/Sample/PostNode.m" afterPath="$PROJECT_DIR$/examples_extra/Placeholders/Sample/PostNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/SynchronousConcurrency/Sample/AsyncTableViewController.m" afterPath="$PROJECT_DIR$/examples_extra/SynchronousConcurrency/Sample/AsyncTableViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/SynchronousConcurrency/Sample/RandomCoreGraphicsNode.m" afterPath="$PROJECT_DIR$/examples_extra/SynchronousConcurrency/Sample/RandomCoreGraphicsNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/SynchronousKittens/Sample/BlurbNode.m" afterPath="$PROJECT_DIR$/examples_extra/SynchronousKittens/Sample/BlurbNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/SynchronousKittens/Sample/KittenNode.mm" afterPath="$PROJECT_DIR$/examples_extra/SynchronousKittens/Sample/KittenNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/SynchronousKittens/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples_extra/SynchronousKittens/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/VideoTableView/Sample/BlurbNode.m" afterPath="$PROJECT_DIR$/examples_extra/VideoTableView/Sample/BlurbNode.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/VideoTableView/Sample/NicCageNode.mm" afterPath="$PROJECT_DIR$/examples_extra/VideoTableView/Sample/NicCageNode.mm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples_extra/VideoTableView/Sample/ViewController.m" afterPath="$PROJECT_DIR$/examples_extra/VideoTableView/Sample/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smoke-tests/Framework/Sample.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/smoke-tests/Framework/Sample.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smoke-tests/Life Without CocoaPods/Life Without CocoaPods/ViewController.m" afterPath="$PROJECT_DIR$/smoke-tests/Life Without CocoaPods/Life Without CocoaPods/ViewController.m" />
+    </list>
+    <ignored path="AsyncDisplayKit.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FavoritesManager">
+    <favorites_list name="AsyncDisplayKit" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="2186" />
+    <option name="height" value="1413" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunManager" selected="Application.AsyncDisplayKit-iOS">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AsyncDisplayKit" TARGET_NAME="AsyncDisplayKit" CONFIG_NAME="Debug" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AsyncDisplayKit" TARGET_NAME="AsyncDisplayKitTests" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AsyncDisplayKit" TARGET_NAME="AsyncDisplayKitTests" CONFIG_NAME="Debug" SCHEME_NAME="Unnamed" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="0">
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="XCTest/Kiwi.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AsyncDisplayKit-iOS" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AsyncDisplayKit" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="626e7716-6941-4b16-bf43-a89f52bfc5a5" name="Default" comment="" />
+      <created>1474355704038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1474355704038</updated>
+      <workItem from="1474355705816" duration="1141000" />
+      <workItem from="1474360273757" duration="7000" />
+      <workItem from="1474539544570" duration="99000" />
+      <workItem from="1477920146962" duration="361000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="102000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="2186" height="1413" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24977127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

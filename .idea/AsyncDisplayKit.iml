@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit-iOS/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Default-568h@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/AsyncDisplayKit+Debug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCellNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASNavigationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASViewController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASControlNode+tvOS.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASImageNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASVideoPlayerNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASControlNode+tvOS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASPagerNode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASContextTransitioning.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASButtonNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutElement.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASBackgroundLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASStackLayoutElement.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASCenterLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec+Subclasses.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASDimension.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASCenterLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASInsetLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec+Subclasses.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASOverlayLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutElementStylePrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutElement.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASStackLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASAbsoluteLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASAsciiArtBoxCreator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASRelativeLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASStackLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASOverlayLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutElementExtensibility.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASAbsoluteLayoutElement.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASStackLayoutDefines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASAsciiArtBoxCreator.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASRelativeLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASRatioLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASBackgroundLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASDimension.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASAbsoluteLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutElementPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASRatioLayoutSpec.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASLayout.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Layout/ASInsetLayoutSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASPagerNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASButtonNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASMultiplexImageNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASVideoPlayerNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASStackBaselinePositionedLayout.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDefaultPlayButton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASSection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/_AS-objc-internal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASControlTargetAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASImageNode+CGExtras.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASStackBaselinePositionedLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDisplayNodeInternal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/_ASPendingState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/_ASHierarchyChangeSet.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASImageNode+CGExtras.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASStackUnpositionedLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDisplayNode+DebugTiming.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASControlTargetAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASStackPositionedLayout.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASLayoutSpecPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDefaultPlaybackButton.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASStackLayoutSpecUtilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/_ASPendingState.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASPendingStateController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDefaultPlaybackButton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASStackUnpositionedLayout.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASTableView+Undeprecated.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASWeakMap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDisplayNode+AsyncDisplay.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASImageNode+AnimatedImagePrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASMultidimensionalArrayUtils.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDisplayNode+FrameworkPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASCollectionView+Undeprecated.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDisplayNodeLayout.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASEnvironmentInternal.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDisplayNodeLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASLayoutTransition.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/_ASScopeTimer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASLayoutSpecUtilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDisplayNode+DebugTiming.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASBasicImageDownloaderInternal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASPendingStateController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDispatch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASInternalHelpers.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASStackPositionedLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASObjectDescriptionHelpers.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASBatchFetching.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASSection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASInternalHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASObjectDescriptionHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASBatchFetching.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASWeakMap.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDataController+Subclasses.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASMultidimensionalArrayUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASLayoutTransition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASEnvironmentInternal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/_ASCoreAnimationExtras.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/_ASHierarchyChangeSet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDisplayNode+UIViewBridge.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/ASDefaultPlayButton.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Private/_ASCoreAnimationExtras.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/UIImage+ASConvenience.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/module.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCollectionNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASVisibilityProtocols.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/AsyncDisplayKit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASVisibilityProtocols.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASVideoNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTableViewInternal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTableView.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASPagerFlowLayout.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTableView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASDisplayNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/AsyncDisplayKit+Debug.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASNetworkImageNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASControlNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASDisplayNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/NSIndexSet+ASHelpers.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASTraceEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/_ASDisplayLayer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/NSIndexSet+ASHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionGroup.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransaction.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransaction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/Transactions/_ASAsyncTransactionGroup.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASLayoutRangeType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASDelegateProxy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASRangeController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASChangeSetDataController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASDelegateProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/_ASDisplayViewAccessiblity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASAbstractLayoutController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASImageContainerProtocolCategories.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASChangeSetDataController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/UICollectionViewLayout+ASConvenience.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/UICollectionViewLayout+ASConvenience.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/NSMutableAttributedString+TextKitAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASFlowLayoutController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASWeakSet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASEnvironment.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/NSMutableAttributedString+TextKitAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASMainSerialQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASMainSerialQueue.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/NSArray+Diffing.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASCollectionViewLayoutController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASDataController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/NSArray+Diffing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASEnvironment.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASWeakProxy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/CoreGraphics+ASConvenience.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASBatchContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/CoreGraphics+ASConvenience.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASCollectionDataController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASMutableAttributedStringBuilder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASImageProtocols.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/_ASDisplayView.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASWeakProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASHighlightOverlayLayer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASCollectionViewFlowLayoutInspector.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/_ASDisplayView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASPhotosFrameworkImageRequest.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASScrollDirection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASCollectionViewFlowLayoutInspector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASPhotosFrameworkImageRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASScrollDirection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASImageContainerProtocolCategories.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASPINRemoteImageDownloader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASIndexedNodeContext.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASPINRemoteImageDownloader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASHighlightOverlayLayer.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASSectionContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASWeakSet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASRangeController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASCollectionInternal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/_ASDisplayViewAccessiblity.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASDealloc2MainObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASIndexedNodeContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASCollectionInternal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASAbstractLayoutController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASTraitCollection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/UIView+ASConvenience.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASIndexPath.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASBasicImageDownloader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASTraitCollection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASDataController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASIndexPath.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASCollectionDataController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASMutableAttributedStringBuilder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASRangeControllerUpdateRangeProtocol+Beta.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASDealloc2MainObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/_ASDisplayLayer.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASBatchContext.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASLayoutController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASCollectionViewLayoutController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASFlowLayoutController.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASBasicImageDownloader.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/Details/ASTraceEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASDisplayNode+Subclasses.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASControlNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTextNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCollectionView.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASEditableTextNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASDisplayNode+Beta.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASScrollNode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCellNode+Internal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASScrollNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASImageNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASImageNode+AnimatedImage.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/UIImage+ASConvenience.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTextNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASControlNode+Subclasses.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASMultiplexImageNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCollectionView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASPagerFlowLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/_ASTransitionContext.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASDisplayNodeExtras.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASNetworkImageNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTableNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTableNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/_ASTransitionContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASMapNode.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/AsyncDisplayKit-Prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASImageNode+tvOS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASEditableTextNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASVideoNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCollectionViewLayoutFacilitatorProtocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextNodeWordKerner.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitTailTruncater.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitTailTruncater.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextNodeTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextNodeWordKerner.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitContext.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASEqualityHashHelpers.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitComponents.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitComponents.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer+Positioning.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitAttributes.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitFontSizeAdjuster.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASLayoutManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASLayoutManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASEqualityHashHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitTruncating.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitEntityAttribute.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer+Positioning.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitCoreTextAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitEntityAttribute.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitCoreTextAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer+TextChecking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitRenderer+TextChecking.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitShadower.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitShadower.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitAttributes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/TextKit/ASTextKitFontSizeAdjuster.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTabBarController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCellNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASMapNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASImageNode+tvOS.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTextNode+Beta.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTabBarController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASRunLoopQueue.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASTableViewProtocols.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASRunLoopQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCollectionNode+Beta.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASDisplayNodeExtras.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCollectionNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASCollectionViewProtocols.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASDisplayNode+Deprecated.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKit/ASNavigationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTestHost/AppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTestHost/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTestHost/AppDelegate.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTestHost/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASVideoNodeTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDimensionTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTextKitCoreTextAdditionsTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASCollectionViewTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTextNodeSnapshotTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTextNodeTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTextKitTruncationTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASStackLayoutSpecSnapshotTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASCenterLayoutSpecSnapshotTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASLayoutElementStyleTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayNodeImplicitHierarchyTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTableViewThrashTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASBridgedPropertiesTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASUICollectionViewTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTextNodeWordKernerTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASImageNodeSnapshotTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASLayoutSpecSnapshotTestsHelper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDispatchTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASOverlayLayoutSpecSnapshotTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASSnapshotTestCase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASLayoutSpecSnapshotTestsHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayNodeTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASWrapperSpecSnapshotTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASControlNodeTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASBatchFetchingTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ArrayDiffingTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASPerformanceTestContext.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASViewControllerTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayNodeLayoutTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASBasicImageDownloaderTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTableViewTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASPhotosFrameworkImageRequestTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASInsetLayoutSpecSnapshotTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASPerformanceTestContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTextKitTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASMutableAttributedStringBuilderTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASXCTExtensions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayNodeAppearanceTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASRelativeLayoutSpecSnapshotTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASAbsoluteLayoutSpecSnapshotTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASBackgroundLayoutSpecSnapshotTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASWeakSetTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayNodeSnapshotTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayNodeTestsHelper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASWeakMapTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayLayerTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASCollectionViewFlowLayoutInspectorTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASBasicImageDownloaderContextTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASMultiplexImageNodeTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/en.lproj/InfoPlist.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayNodeTestsHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/AsyncDisplayKitTests-Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASDisplayNodeExtrasTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASEditableTextNodeTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASTextNodePerformanceTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASRatioLayoutSpecSnapshotTests.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASCALayerTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASNetworkImageNodeTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AsyncDisplayKitTests/ASSnapshotTestCase.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/ASLog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/ASEqualityHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/ASAvailability.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/ASBaseDefines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/ASAssert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-AsyncDisplayKitTests/Pods-AsyncDisplayKitTests.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-AsyncDisplayKitTests/Pods-AsyncDisplayKitTests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-AsyncDisplayKitTests/Pods-AsyncDisplayKitTests.profile.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CallKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PassKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IntentsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Messages.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Intents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Speech.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ReplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotifications.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CallKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PassKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IntentsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Messages.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Intents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Speech.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ReplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotifications.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
